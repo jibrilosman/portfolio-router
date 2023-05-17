@@ -1,0 +1,109 @@
+:root {
+    --color-bg: #15193c;
+    --color-bg1: #011627;
+    --color-bg-variant: #2c2c6d;
+    --color-primary: #516cf5;
+    --color-primary-variant: #da3656;
+    --color-secondary: #e7a317;
+    --color-btn: #ea4020;
+    --color-btn1: #f71735;
+    --color-white: #fff;
+    --color-light: rgba(240, 240, 240, 0.9);
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+
+    --transition: all 400ms ease;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+
+}
+
+[data-theme="dark"]  {
+    background: var(--color-bg1);
+    color: var(--color-text);  
+    transition: all 0.5s ease-in-out;
+}
+[data-theme="light"]  {
+    background: var(--color-bg-light);
+    color: var(--color-text-light);
+    transition: all 0.5s ease-in-out;
+}
+[data-theme="dark"] nav {
+    background: #15193c;
+    color: var(--color-white);  
+    transition: all 0.5s ease-in-out;
+}
+[data-theme="light"] nav {
+    background: var(--color-bg-light);
+    color: var(--color-text-light);
+    transition: all 0.5s ease-in-out;
+}
+[data-theme="dark"] nav a {
+    color: var(--color-white);  
+}
+[data-theme="dark"] .hero-info h1 {
+    color: var(--color-white);  
+}
+[data-theme="dark"] .hero-info h2 {
+    color: var(--color-white);  
+}
+[data-theme="dark"] .hero-info h3 {
+    color: var(--color-white);  
+}
+[data-theme="dark"] .hero-info p {
+    color: var(--color-white);  
+}
+[data-theme="dark"] .hero-image::before {
+    border: 20px solid #f71735;
+    border-right: 0;
+    border-bottom: 0;
+}
+[data-theme="dark"] .social-icon {
+    color: var(--color-white);  
+}
+[data-theme="dark"] .header-place-holder h1 {
+    color: var(--color-light); 
+    visibility: visible;
+    opacity: 0.5; 
+}
+[data-theme="dark"] .btn {
+    background: var(--color-white);
+    color: var(--color-bg1);
+    border-color: transparent;
+    transform: translateY(-2px);
+}
+[data-theme="dark"] .btn:hover {
+    background: #f71735;
+    color: var(--color-white);
+    border-color: transparent;
+    transform: translateY(-2px);
+}
+[data-theme="dark"] .about-info p {
+    color: rgba(212, 212, 212, .5);
+}
+[data-theme="dark"] .about-info h2 {
+    color: var(--color-white);
+}
+[data-theme="dark"] .about-info h2::after {
+    background: #f71735;
+}
+[data-theme="dark"] .about-info h5 {
+    color: rgba(212, 212, 212, .5);
+}
+[data-theme="dark"] .hero span {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: var(--color-light);
+}
+[data-theme="dark"] .about-place-holder h1{
+    color: var(--color-light);
+    opacity: 0.1;
+}
+[data-theme="dark"] footer {
+    background: #15193c;
+    color: var(--color-white);
+}
+[data-theme="dark"] .footer__socials a{
+    color: var(--color-white);
+}
