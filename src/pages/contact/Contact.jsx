@@ -2,8 +2,24 @@ import React from 'react'
 import './Contact.css'
 import { BsFacebook } from 'react-icons/bs'
 import { AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai'
+import  { useRef } from 'react';
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_2f24y4q', 'template_opvyf1q', form.current, 'jetS2ukW1D3OFsPTD')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset();
+  };
+
   return (
     <section>
       <div className="contact-place-holder">
@@ -31,14 +47,14 @@ const Contact = () => {
         </div>
         <div className="contact-form">
           <h3>Get In Touch</h3>
-          <form>
-              <input className='form-control' type="text" name='name' placeholder="Name" />
+          <form ref={form} onSubmit={sendEmail}>
+              <input className='form-control' type="text" name='name' placeholder="Name" required />
 
-              <input className='form-control' type="email" name='email' placeholder="Email" />
+              <input className='form-control' type="email" name='email' placeholder="Email" required />
 
-              <input className='form-control' type="text" name='subject' placeholder="Subject" />
+              <input className='form-control' type="text" name='subject' placeholder="Subject" required />
 
-              <textarea className='form-control' name='message'  placeholder="Message"></textarea>
+              <textarea className='form-control' name='message'  placeholder="Message" required></textarea>
 
               <button type="submit" className='btn'>Send Message</button>
           </form>

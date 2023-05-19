@@ -120,6 +120,7 @@ form > .btn {
     }
     .contact-form h3::after {
         left: -10px;
+        top: 25%;
     }
     .contact-form {
         margin-top: 2rem;
