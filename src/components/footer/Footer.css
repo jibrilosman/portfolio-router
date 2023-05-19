@@ -2,7 +2,7 @@ footer {
     width: 100%;
     height: 50px;
     border-top: 1px solid rgba(41, 41, 41, 0.5);
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background: var(--color-white);
     display: flex;
@@ -18,15 +18,15 @@ footer {
 
  /* media query (medium devices)*/
  @media screen and (max-width: 1024px) {
-    footer {
+    /* footer {
         bottom: -459px;
-    }  
+    }   */
 }
 
 /* media query (small devices)*/
 @media screen and (max-width: 600px) {
-    footer {
+    /* footer {
         bottom: -526px;
-    }  
+    }   */
   
 }

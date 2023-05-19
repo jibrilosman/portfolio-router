@@ -99,14 +99,16 @@ nav a:focus::after {
         transition: all 1.5s ease;
       }
       
+      
     .icon {
         display: block;
         position: absolute;
         top: 5%;
         left: 80%;
         z-index: 112;
+        font-size: 2.5rem;
         color: var(--color-white);
-        background: var(--color-primary-variant);
+        background: #f71735;
         border-radius: 3px;
         box-shadow: var(--light-shadow);  
     }

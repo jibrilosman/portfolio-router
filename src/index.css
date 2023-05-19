@@ -49,6 +49,12 @@ body {
     width: var(--container-width-lg);
     margin: 0 auto;
 }
+section {
+    width: 100%;
+    height: 100%;
+    padding-top:7rem;
+    overflow: hidden;
+}
 .btn {
     width: max-content;
     display: inline-block;
