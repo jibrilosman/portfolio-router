@@ -98,7 +98,7 @@
 }
 [data-theme="dark"] .about-place-holder h1{
     color: var(--color-light);
-    opacity: 0.1;
+    opacity: 0.5;
 }
 [data-theme="dark"] footer {
     background: #15193c;
@@ -111,7 +111,7 @@
 /*Services page style */
 [data-theme="dark"] .services-place-holder h1{
     color: var(--color-light);
-    opacity: 0.1;
+    opacity: 0.5;
 }
 [data-theme="dark"] .service-box {
     background: rgba(255, 255, 255, 0.05);
@@ -142,7 +142,7 @@
 /*Portfolio page style */
 [data-theme="dark"] .portfolio-place-holder h1{
     color: var(--color-light);
-    opacity: 0.1;
+    opacity: 0.5;
 }
 [data-theme="dark"] .portfolio-item {
     background: rgba(255, 255, 255, 0.05);
@@ -168,4 +168,41 @@
     color: var(--color-white);
     border-color: transparent;
     transform: translateY(-2px);
+}
+
+
+/*Contact page style */
+
+[data-theme="dark"] .contact-place-holder h1{
+    color: var(--color-light);
+    opacity: 0.5;
+}
+
+[data-theme="light"] .contact-info {
+    background: var(--color-white);
+    color: var(--color-bg1);
+    box-shadow: var(--light-shadow);
+}
+[data-theme="light"] .contact-info h3 {
+    color: var(--color-bg1);
+}
+[data-theme="light"] .contact-info p {
+    color: #555a64;
+}
+[data-theme="dark"] .contact-socials a {
+    color: var(--color-white);
+}
+
+/* Form light theme */
+[data-theme="light"] .contact-form {
+    background: var(--color-white);
+    color: var(--color-bg1);
+    box-shadow: var(--light-shadow);
+}
+[data-theme="light"] .form-control {
+    color: var(--color-bg1);
+    border: 1px solid #555a64;
+}
+[data-theme="light"] .contact-form h3 {
+    color: var(--color-bg1);
 }

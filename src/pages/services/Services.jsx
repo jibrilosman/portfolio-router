@@ -8,7 +8,7 @@ const Services = () => {
     <section>
 
         <div className="services-place-holder">
-          <h1>SERVICES</h1>
+          <h1>Services</h1>
         </div>
       <div className='container services-container'>
           <div className="service-box">
