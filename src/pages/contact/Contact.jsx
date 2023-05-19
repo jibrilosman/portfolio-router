@@ -4,6 +4,8 @@ import { BsFacebook } from 'react-icons/bs'
 import { AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai'
 import  { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
   const form = useRef();
@@ -13,6 +15,13 @@ const Contact = () => {
     emailjs.sendForm('service_2f24y4q', 'template_opvyf1q', form.current, 'jetS2ukW1D3OFsPTD')
       .then((result) => {
           console.log(result.text);
+          toast.success('Message Sent Successfully', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            draggable: true,
+          });
       }, (error) => {
           console.log(error.text);
       });
