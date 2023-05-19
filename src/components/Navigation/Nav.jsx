@@ -59,7 +59,7 @@ function closeMenu(){
             </Link>
 
         </nav>
-            <Link to='/' onClick={toggleMenu}>
+            <Link to={({isActive}) => isActive ? 'active' : ''} onClick={toggleMenu}>
                 {<RxHamburgerMenu className='icon'/>}
             </Link>
     </>
