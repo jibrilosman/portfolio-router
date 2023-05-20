@@ -47,6 +47,8 @@ const About = (props) => {
               <span>php</span>
               <span>.NET</span>
               <span>SQL</span>
+              <span>MySQL</span>
+              <span>MongoDB</span>
               <span>Git</span>
               <span>GitHub</span>
               <span>VS Code</span>
