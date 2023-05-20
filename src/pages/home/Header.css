@@ -79,7 +79,9 @@ header {
 .social-icon{
     color: var(--color-btn);
 }
-
+.social-icon:hover{
+    color: #f71735;
+}
 .header__socials {
     display: flex;
     flex-direction: column;

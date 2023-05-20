@@ -100,6 +100,7 @@
     color: var(--color-light);
     opacity: 0.5;
 }
+/* footer  dark styles */
 [data-theme="dark"] footer {
     background: #15193c;
     color: var(--color-white);
@@ -107,6 +108,10 @@
 [data-theme="dark"] .footer__socials a{
     color: var(--color-white);
 }
+[data-theme="light"] .footer__socials a:hover{
+    color: var(--color-bg1);
+}
+
 
 /*Services page style */
 [data-theme="dark"] .services-place-holder h1{
@@ -191,6 +196,9 @@
 }
 [data-theme="dark"] .contact-socials a {
     color: var(--color-white);
+}
+[data-theme="light"] .contact-socials a:hover {
+    color: var(--color-bg1);
 }
 
 /* Form light theme */
