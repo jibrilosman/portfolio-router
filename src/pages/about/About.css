@@ -90,7 +90,9 @@
       letter-spacing: 2rem;
       text-transform: uppercase;
   }
-  
+.about-info strong {
+    color: var(--color-white)
+}
   
   /* media query (medium devices)*/
   @media screen and (max-width: 1024px) {
