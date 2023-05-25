@@ -18,7 +18,7 @@ const About = (props) => {
         </div>
           
           <h2>About Me</h2>
-          <h5>Hello my name is <strong>Jibril Omar</strong> and I am UX/UI designer and full-stack developer</h5>
+          <h5>Hello my name is Jibril Omar and I am UX/UI designer and full-stack developer</h5>
           <p>Junior Web Developer with a Diploma in Enterprise Web & Mobile Developer and a passion with coding 
             and creating websites. Organized, strong ability to communicate efficiently. 
             Ability to adapt in both self-starting and collaborative environments while staying 
@@ -47,8 +47,6 @@ const About = (props) => {
               <span>php</span>
               <span>.NET</span>
               <span>SQL</span>
-              <span>MySQL</span>
-              <span>MongoDB</span>
               <span>Git</span>
               <span>GitHub</span>
               <span>VS Code</span>
