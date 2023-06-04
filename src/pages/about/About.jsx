@@ -24,7 +24,7 @@ const About = (props) => {
             Ability to adapt in both self-starting and collaborative environments while staying 
             focused on achieving high-quality results under strict deadlines.</p>
 
-            <h2>Design Tools</h2>
+            <h2>Design Tools & Other</h2>
             <div className="hero">
               <span>Photoshop</span>
               <span>Illustrator</span>
@@ -35,18 +35,41 @@ const About = (props) => {
 
 
             <h2>Development Tools</h2>
+
+            <h2>Languages</h2>
             <div className="hero">
               <span>HTML</span>
-              <span>SCSS</span>
               <span>CSS</span>
+              <span>SCSS</span>
               <span>JavaScript</span>
-              <span>jQuery</span>
-              <span>React</span>
+              <span>C#</span>
+              <span>JAVA</span>
+              <span>SQL</span>
+              <span>PHP</span>
+              <span>SWIFT</span>
+            </div>
+
+            <h2>Databases</h2>
+            <div className="hero">
+              <span>MYSQL</span>
+              <span>SQL SERVER</span>
+              <span>MongoDB</span>
+            </div>
+
+            <h2>Frameworks</h2>
+            <div className="hero">
+              <span>React.js</span>
+              <span>JQUERY</span>
               <span>Bootstrap</span>
               <span>Node.js</span>
-              <span>php</span>
-              <span>.NET</span>
-              <span>SQL</span>
+              <span>Express.js</span>
+              <span>DJANGO</span>
+              <span>.NET Core</span>
+              <span>ASP.NET</span>
+            </div>
+
+            <h2>Other Tools</h2>
+            <div className="hero">
               <span>Git</span>
               <span>GitHub</span>
               <span>VS Code</span>
