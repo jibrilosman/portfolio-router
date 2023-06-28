@@ -12,7 +12,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_2f24y4q', 'template_opvyf1q', form.current,'PplvkP9ksNkQ9xcYv')
+    emailjs.sendForm('service_mrz4o8m', 'template_opvyf1q', form.current,'PplvkP9ksNkQ9xcYv')
       .then((result) => {
           console.log(result.text);
           toast.success('Message Sent Successfully', {
