@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/JIBRIL_OMAR.pdf'
+import CV from '../../assets/JIBRIL OMAR++.pdf'
 import { NavLink } from 'react-router-dom'
 
 const CTA = () => {
