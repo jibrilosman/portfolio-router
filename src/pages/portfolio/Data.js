@@ -10,14 +10,15 @@ import IMG9 from '../../assets/project-9.png'
 import IMG10 from '../../assets/project-10.png'
 import IMG11 from '../../assets/project-11.jpg'
 import IMG12 from '../../assets/project-12.jpg'
+import IMG13 from '../../assets/desktop-design-home-dark.jpg'
 
 const data = [
     {
       id: 0,
-      image: IMG2,
-      title: 'Yummy Cake, using PHP,Bootstrap,CSS,HTML,Jquery',
-      github: 'https://github.com/jibrilosman/yummycake',
-      demo: 'https://www.yummy.jibrilomar.com/index.php',
+      image: IMG13,
+      title: 'REST Countries API with color theme switcher using React,CSS,HTML',
+      github: 'https://github.com/jibrilosman/countries-of-the-world',
+      demo: 'https://countries-of-the-world-murex.vercel.app',
     
     },
     {
