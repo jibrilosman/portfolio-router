@@ -13,6 +13,14 @@ import IMG12 from '../../assets/project-12.jpg'
 
 const data = [
     {
+      id: 0,
+      image: IMG2,
+      title: 'Yummy Cake, using PHP,Bootstrap,CSS,HTML,Jquery',
+      github: 'https://github.com/jibrilosman/yummycake',
+      demo: 'https://www.yummy.jibrilomar.com/index.php',
+    
+    },
+    {
       id: 1,
       image: IMG1,
       title: 'Tenzies game, using React, CSS, HTML ',
