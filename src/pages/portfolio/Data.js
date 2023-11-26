@@ -16,7 +16,7 @@ const data = [
     {
       id: 0,
       image: IMG13,
-      title: 'REST Countries API with color theme switcher using React,CSS,HTML',
+      title: 'REST Countries API with color theme switcher using React,React Context API, axios,CSS,HTML',
       github: 'https://github.com/jibrilosman/countries-of-the-world',
       demo: 'https://countries-of-the-world-murex.vercel.app',
     
