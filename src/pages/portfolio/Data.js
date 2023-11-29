@@ -10,6 +10,7 @@ import IMG9 from '../../assets/project-9.png'
 import IMG10 from '../../assets/project-10.png'
 import IMG11 from '../../assets/project-11.jpg'
 import IMG12 from '../../assets/project-12.jpg'
+import IMG14 from '../../assets/project-14.jpg'
 import IMG13 from '../../assets/desktop-design-home-dark.jpg'
 
 const data = [
@@ -62,11 +63,11 @@ const data = [
 
     },
     {
-        id: 6,
-        image: IMG6,
-        title: 'JavaScript Documentation Page using HTML, CSS and JS',
-        github: 'https://github.com/jibrilosman/Documentation-page',
-        demo: 'https://jibrilosman.github.io/Documentation-page/',
+        id: 14,
+        image: IMG14,
+        title: 'Newsletter sign-up form with success message using HTML, CSS Grid and JS',
+        github: 'https://github.com/jibrilosman/newsletter-sign-up-with-success-message-main',
+        demo: 'https://newsletter-sign-up-with-success-message-main-bay.vercel.app/',
     
     },
     {
@@ -115,6 +116,14 @@ const data = [
       title: 'Interactive rating component using HTML, CSS and JS',
       github: 'https://github.com/jibrilosman/interactive-rating-component-main',
       demo: 'https://jibrilosman.github.io/interactive-rating-component-main/',
+    
+    },
+    {
+        id: 6,
+        image: IMG6,
+        title: 'JavaScript Documentation Page using HTML, CSS and JS',
+        github: 'https://github.com/jibrilosman/Documentation-page',
+        demo: 'https://jibrilosman.github.io/Documentation-page/',
     
     },
 
