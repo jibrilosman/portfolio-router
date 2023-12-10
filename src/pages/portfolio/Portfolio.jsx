@@ -2,7 +2,7 @@ import React, {  useState } from 'react'
 import './Portfolio.css'
 import '../../index.css'
 import SportShop from '../../assets/sportshop.png'
-import File from '../../assets/ProjectPrototype.pdf'
+import File from '../../assets/ProjectPrototype2.pdf'
 import data from './Data'
 
 
