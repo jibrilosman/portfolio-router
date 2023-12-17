@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import '../../index.css'
-import Image from '../../assets/midjourney-image.jpg'
+import Image from '../../assets/hero-4.jpg'
 
 const About = (props) => {
   return (
