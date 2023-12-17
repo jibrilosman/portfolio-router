@@ -52,7 +52,7 @@ const About = (props) => {
             <h2>Databases</h2>
             <div className="hero">
               <span>MYSQL</span>
-              <span>SQL SERVER</span>
+              <span>SQL</span>
               <span>MongoDB</span>
             </div>
 
