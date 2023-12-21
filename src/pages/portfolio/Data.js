@@ -15,6 +15,14 @@ import IMG14 from '../../assets/project-14.jpg'
 import IMG15 from '../../assets/self-order-kiosk.png'
 
 const data = [
+     {
+      id:15,
+      image: IMG15,
+      title: 'Self-Order-Kiosk using React, Material UI Themes, Animations, Modals, Boxes, React Hooks like useState, useReducer, React useContext, Node.js MongoDB',
+      github: 'https://github.com/jibrilosman/self-order',
+      demo: 'https://self-order-chi.vercel.app/order',
+    
+    },
     {
       id:13,
       image: IMG13,
@@ -24,11 +32,11 @@ const data = [
     
     },
     {
-      id:15,
-      image: IMG15,
-      title: 'Self-Order-Kiosk using React, Material UI Themes, Animations, Modals, Boxes, React Hooks like useState, useReducer, React useContext, Node.js MongoDB',
-      github: 'https://github.com/jibrilosman/self-order',
-      demo: 'https://self-order-chi.vercel.app/order',
+      id: 2,
+      image: IMG2,
+      title: 'Yummy Cake, using PHP,Bootstrap,CSS,HTML,Jquery',
+      github: 'https://github.com/jibrilosman/yummycake',
+      demo: 'https://www.yummy.jibrilomar.com/index.php',
     
     },
     {
@@ -39,14 +47,7 @@ const data = [
       demo: 'https://tenzies-eight-swart.vercel.app/',
   
     },
-    {
-      id: 2,
-      image: IMG2,
-      title: 'Yummy Cake, using PHP,Bootstrap,CSS,HTML,Jquery',
-      github: 'https://github.com/jibrilosman/yummycake',
-      demo: 'https://www.yummy.jibrilomar.com/index.php',
-    
-    },
+   
     {
       id: 3,
       image: IMG3,
