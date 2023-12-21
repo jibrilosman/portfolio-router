@@ -10,8 +10,9 @@ import IMG9 from '../../assets/project-9.png'
 import IMG10 from '../../assets/project-10.png'
 import IMG11 from '../../assets/project-11.jpg'
 import IMG12 from '../../assets/project-12.jpg'
-import IMG14 from '../../assets/project-14.jpg'
 import IMG13 from '../../assets/desktop-design-home-dark.jpg'
+import IMG14 from '../../assets/project-14.jpg'
+import IMG15 from '../../assets/self-order-kiosk.png'
 
 const data = [
     {
@@ -20,6 +21,14 @@ const data = [
       title: 'REST Countries API with color theme switcher using React,React Context API, axios,CSS,HTML',
       github: 'https://github.com/jibrilosman/countries-of-the-world',
       demo: 'https://countries-of-the-world-murex.vercel.app',
+    
+    },
+    {
+      id:15,
+      image: IMG15,
+      title: 'Self-Order-Kiosk using React, Material UI Themes, Animations, Modals, Boxes, React Hooks like useState, useReducer, React useContext, Node.js MongoDB',
+      github: 'https://github.com/jibrilosman/self-order',
+      demo: 'https://self-order-chi.vercel.app/order',
     
     },
     {
