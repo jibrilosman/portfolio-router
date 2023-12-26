@@ -52,7 +52,7 @@
 }
 .portfolio-item small {
     
-    color: rgba(41, 41, 41, 0.8);
+    color: var(--color-white);
 }
 .portfolio-item-cta {
     display: flex;
