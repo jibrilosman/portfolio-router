@@ -34,13 +34,14 @@ const Portfolio = () => {
               </div>
           </div>
           {
-            data.slice(0, numToShow).map(({id, image, title, github, demo}) => {
+            data.slice(0, numToShow).map(({id, image, title, github, demo, note}) => {
               return (
                 <div key={id} className='portfolio-item data-items'>
                     <div className="portfolio-item-image">
                       <img src={image} alt=""/>
                     </div>
                     <h3>{title}</h3>
+                    <smal>{note ? true : false}</smal>
                     <div className="portfolio-item-cta">
                       <a href={github} className='btn' target={'_blank'} rel="noreferrer" >Github</a>
                       <a href={demo} className='btn ' target={'_blank'}  rel="noreferrer">Live Demo</a>
