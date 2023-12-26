@@ -50,6 +50,10 @@
     margin: 1.2rem 0 2rem;
     color: rgba(41, 41, 41, 0.8);
 }
+.portfolio-item small {
+    
+    color: rgba(41, 41, 41, 0.8);
+}
 .portfolio-item-cta {
     display: flex;
     justify-content: center;
