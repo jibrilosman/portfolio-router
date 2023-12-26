@@ -41,6 +41,7 @@ const Portfolio = () => {
                       <img src={image} alt=""/>
                     </div>
                     <h3>{title}</h3>
+                    <small>note: (( wait for 30 seconds to upload the products ))</small>
                     <div className="portfolio-item-cta">
                       <a href={github} className='btn' target={'_blank'} rel="noreferrer" >Github</a>
                       <a href={demo} className='btn ' target={'_blank'}  rel="noreferrer">Live Demo</a>
