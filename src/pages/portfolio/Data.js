@@ -19,7 +19,7 @@ const data = [
       id:15,
       image: IMG15,
       title: 'Self-Order-Kiosk using React, Material UI, React Hooks like useState, useReducer, React useContext, Node.js MongoDB',
-      note: 'wait for 30 seconds to upload the products',
+      note: 'wait for 30 seconds to 1 minute to upload the products',
       github: 'https://github.com/jibrilosman/self-order',
       demo: 'https://self-order-chi.vercel.app/order',
     
