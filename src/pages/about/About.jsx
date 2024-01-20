@@ -47,14 +47,20 @@ const About = (props) => {
             Developer position. Excited about the opportunity to learn and grow
             within a forward-thinking company.
           </p>
-            <h2>Design Tools & Other</h2>
-            <div className="hero">
-              <span>Photoshop</span>
-              <span>Illustrator</span>
-              <span>Adobe Xd</span>
-              <span>Figma</span>
-              <span>Sketch</span>
-            </div>
+
+          <h2>Development Tools</h2>
+               <div className="hero">
+                  <span>VS Code</span>
+                  <span>Git</span>
+                  <span>GitHub</span>
+                  <span>Agile Scrum</span>
+                  <span>JIRA</span>
+                  <span>Chrome Developer Tools</span>
+                  <span>Postman</span>
+                  <span>Docker</span>
+                  <span> Production deployment</span>
+                  <span>JIRA</span>
+                </div>
           
             <h2>Languages</h2>
             <div className="hero">
@@ -88,26 +94,15 @@ const About = (props) => {
               <span>ASP.NET</span>
             </div>
           
-            <h2>Development Tools</h2>
-               <div className="hero">
-                  <span>VS Code</span>
-                  <span>Git</span>
-                  <span>GitHub</span>
-                  <span>Agile Scrum</span>
-                  <span>JIRA</span>
-                  <span>Chrome Developer Tools</span>
-                  <span>Postman</span>
-                  <span>Docker</span>
-                  <span> Production deployment</span>
-                  <span>JIRA</span>
-                </div>
-            <h2>Other Tools</h2>
+             <h2>Design Tools & Other</h2>
             <div className="hero">
-              
-              <span>GitHub</span>
-              <span>VS Code</span>
-              <span>Postman</span>
+              <span>Photoshop</span>
+              <span>Illustrator</span>
+              <span>Adobe Xd</span>
+              <span>Figma</span>
+              <span>Sketch</span>
             </div>
+            
             
         </div>
       </div>
