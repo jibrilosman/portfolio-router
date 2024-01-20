@@ -100,6 +100,9 @@
     color: var(--color-light);
     opacity: 0.5;
 }
+[data-theme="dark"] .about-info strong {
+    color: #f71735;
+}
 /* footer  dark styles */
 [data-theme="dark"] footer {
     background: #15193c;
