@@ -51,7 +51,9 @@
     height: 25px;
     background-color: var(--color-btn);
   }
-  
+  strong {
+    color: var(--color-btn);
+  }
   .about-info h5 {
     font-size: 1.1rem;
     font-weight: 400;
