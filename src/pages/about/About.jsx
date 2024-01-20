@@ -18,12 +18,35 @@ const About = (props) => {
         </div>
           
           <h2>About Me</h2>
-          <h5>Hello my name is Jibril Omar and I am UX/UI designer and full-stack developer</h5>
-          <p>Junior Web Developer with a Diploma in Enterprise Web & Mobile Developer and a passion with coding 
-            and creating websites. Organized, strong ability to communicate efficiently. 
-            Ability to adapt in both self-starting and collaborative environments while staying 
-            focused on achieving high-quality results under strict deadlines.</p>
-
+          <h5>
+            Hello my name is <strong>Jibril Omar</strong> and I am UX/UI
+            designer and full-stack developer
+          </h5>
+          <p>
+            Passionate and dedicated Web Developer with a Diploma in Enterprise
+            Web & Mobile Development, I bring a diverse skill set in programming
+            languages and frameworks. My recent role as a Co-op Full-stack
+            Developer at Brand M3dia allowed me to play a pivotal role in an
+            innovative pay kiosk project. I focused on creating a user-friendly
+            interface with React, delving into the backend with Node.js and
+            Express, gaining valuable insights into full-stack development, API
+            integration, and effective collaboration using GitHub. As a Junior
+            Full-stack Developer at Alieniz, I honed my skills in web
+            development technologies. I crafted responsive interfaces using
+            HTML, CSS, SCSS, bootstrap, and React JS, contributing to
+            server-side logic and APIs with PHP Laravel for seamless data flow.
+            Committed to community service, I volunteered at the Somali Refugee
+            Centre in Malaysia, emphasizing empathy and the use of technology to
+            empower those in need. My educational background includes accounting
+            studies at Sana’a University, a Diploma in Enterprise Web & Mobile
+            Developer program at triOS College, and Coursera certifications in
+            mobile development, advanced web technologies, and various
+            programming languages. Eager to contribute technical expertise,
+            problem-solving abilities, and a passion for web development to a
+            dynamic team, I am confident that my skills align with the Web
+            Developer position. Excited about the opportunity to learn and grow
+            within a forward-thinking company.
+          </p>
             <h2>Design Tools & Other</h2>
             <div className="hero">
               <span>Photoshop</span>
