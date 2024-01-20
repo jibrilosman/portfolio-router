@@ -55,10 +55,7 @@ const About = (props) => {
               <span>Figma</span>
               <span>Sketch</span>
             </div>
-
-
-            <h2>Development Tools</h2>
-
+          
             <h2>Languages</h2>
             <div className="hero">
               <span>HTML</span>
@@ -90,10 +87,23 @@ const About = (props) => {
               <span>.NET Core</span>
               <span>ASP.NET</span>
             </div>
-
+          
+            <h2>Development Tools</h2>
+               <div className="hero">
+                  <span>VS Code</span>
+                  <span>Git</span>
+                  <span>GitHub</span>
+                  <span>Agile Scrum</span>
+                  <span>JIRA</span>
+                  <span>Chrome Developer Tools</span>
+                  <span>Postman</span>
+                  <span>Docker</span>
+                  <span> Production deployment</span>
+                  <span>JIRA</span>
+                </div>
             <h2>Other Tools</h2>
             <div className="hero">
-              <span>Git</span>
+              
               <span>GitHub</span>
               <span>VS Code</span>
               <span>Postman</span>
