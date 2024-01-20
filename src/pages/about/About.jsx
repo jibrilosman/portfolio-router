@@ -59,7 +59,6 @@ const About = (props) => {
                   <span>Postman</span>
                   <span>Docker</span>
                   <span> Production deployment</span>
-                  <span>JIRA</span>
                 </div>
           
             <h2>Languages</h2>
