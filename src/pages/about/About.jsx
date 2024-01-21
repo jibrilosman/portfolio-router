@@ -63,14 +63,14 @@ const About = (props) => {
           
             <h2>Languages</h2>
             <div className="hero">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>SCSS</span>
               <span>JavaScript</span>
               <span>C#</span>
               <span>JAVA</span>
               <span>SQL</span>
               <span>PHP</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>SCSS</span>
               <span>SWIFT</span>
             </div>
 
