@@ -80,7 +80,7 @@ header {
     color: var(--color-btn);
 }
 .social-icon:hover{
-    color: #f71735;
+   color: var(--color-bg1);
 }
 .header__socials {
     display: flex;
@@ -97,9 +97,7 @@ header {
     height: 2rem;
     background: var(--color-btn);
 }
-.header__socials:hover{
-     color: var(--color-bg1);
-}
+
 .header-place-holder > h1 {
     font-family: 'Londrina Outline', cursive;
     font-weight: 400;
