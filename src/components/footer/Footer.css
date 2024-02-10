@@ -16,7 +16,7 @@ footer {
      margin: 0 13px;
 }
 .footer__socials a:hover{
-     color: #e74c3c;
+     color: var(--color-btn);
 }
 
 
