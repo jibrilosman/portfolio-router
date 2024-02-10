@@ -12,7 +12,7 @@ footer {
     box-shadow: var(--light-shadow);
 }
 .footer__socials a{
-     color: #f71735;
+    color: var(--color-text);
      margin: 0 13px;
 }
 .footer__socials a:hover{
