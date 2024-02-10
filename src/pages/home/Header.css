@@ -98,7 +98,7 @@ header {
     background: var(--color-btn);
 }
 .header__socials:hover{
-     color: #f71735;
+     background: #f71735;
 }
 .header-place-holder > h1 {
     font-family: 'Londrina Outline', cursive;
