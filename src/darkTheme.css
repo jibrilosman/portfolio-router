@@ -61,7 +61,14 @@
     border-bottom: 0;
 }
 [data-theme="dark"] .social-icon {
-    color: var(--color-white);  
+    color: var(--color-white); 
+    var(--color-bg1);
+}
+[data-theme="light"] .social-icon {
+    color:  var(--color-bg1); 
+}
+[data-theme="light"] .social-icon:hover {
+    color:  #f71735;
 }
 [data-theme="dark"] .header-place-holder h1 {
     color: var(--color-light); 
