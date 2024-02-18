@@ -80,6 +80,20 @@
     border-color: transparent;
     transform: translateY(-2px);
 }
+
+[data-theme="light"] .btn {
+    background: #f71735;
+    color: var(--color-bg1);
+    border-color: transparent;
+    transform: translateY(-2px);
+}
+[data-theme="light"] .btn:hover {
+    background: var(--color-white);
+    color: var(--color-white);
+    border-color: transparent;
+    transform: translateY(-2px);
+}
+
 [data-theme="dark"] .about-info p {
     color: rgba(212, 212, 212, .5);
 }
