@@ -82,13 +82,13 @@
 }
 
 [data-theme="light"] .btn {
-    background: #f71735;
-    color: var(--color-bg1);
+    background: var(--color-bg1);
+    color: var(--color-white);
     border-color: transparent;
     transform: translateY(-2px);
 }
 [data-theme="light"] .btn:hover {
-    background: var(--color-white);
+    background: #f71735;
     color: var(--color-white);
     border-color: transparent;
     transform: translateY(-2px);
