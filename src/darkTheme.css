@@ -67,7 +67,7 @@
     color: var(--color-bg1); 
 }
 [data-theme="light"] .social-icon:hover {
-    color: #f71735;
+    color: #ea4020;
 }
 [data-theme="dark"] .header-place-holder h1 {
     color: var(--color-light); 
@@ -81,7 +81,7 @@
     transform: translateY(-2px);
 }
 [data-theme="dark"] .btn:hover {
-    background: #f71735;
+    background: #ea4020;
     color: var(--color-white);
     border-color: transparent;
     transform: translateY(-2px);
