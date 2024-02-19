@@ -131,10 +131,12 @@
 [data-theme="dark"] .footer__socials a{
     color: var(--color-white);
 }
-[data-theme="light"] .footer__socials a:hover{
+[data-theme="light"] .footer__socials a{
     color: var(--color-bg1);
 }
-
+[data-theme="light"] .footer__socials a:hover{
+    color: #ea4020;
+}
 
 /*Services page style */
 [data-theme="dark"] .services-place-holder h1{
