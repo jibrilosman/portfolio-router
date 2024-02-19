@@ -222,8 +222,11 @@
 [data-theme="dark"] .contact-socials a {
     color: var(--color-white);
 }
-[data-theme="light"] .contact-socials a:hover {
+[data-theme="light"] .contact-socials a {
     color: var(--color-bg1);
+}
+[data-theme="light"] .contact-socials a:hover {
+    color: #ea4020;
 }
 
 /* Form light theme */
