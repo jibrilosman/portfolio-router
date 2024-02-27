@@ -13,7 +13,7 @@ const Footer = () => {
          <a href="https://www.linkedin.com/in/jibril-omar-25bb98216/" target='_blank' rel="noreferrer"><BsLinkedin /></a>
          <a href="https://github.com/jibrilosman" target='_blank' rel="noreferrer"><FaGithub /></a>
          <a href="https://www.frontendmentor.io/profile/jibrilosman" target='_blank' rel="noreferrer"><SiFrontendmentor /></a>
-         <a href="https://twitter.com/jibrilosman10" target='_blank' rel="noreferrer"><FaSquareXTwitter /></a>
+         <a href="https://twitter.com/jibrilosman10" target='_blank' rel="noreferrer"><FaSquareXTwitter/></a>
        </div>
        <div className="copy-right">
             <p>© {currentYear} Jibril Omar.</p>
