@@ -5,8 +5,7 @@ import { NavLink } from 'react-router-dom'
 const CTA = () => {
   return (
     <div className='cta'>
-        <a href={CV} download  className="btn">Download C.V</a>
-        <a href={CV}   className="btn"  rel="noreferrer" target={'_blank'}>View C.V</a>
+        <a href={CV} download  className="btn">View & Download Resume</a>
         <NavLink to="/contact"  className="btn">Contact Me</NavLink>
     </div>
   )
