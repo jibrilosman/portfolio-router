@@ -187,6 +187,9 @@
 [data-theme="dark"] .portfolio-item  h3 {
     color: var(--color-white);
 }
+[data-theme="light"] small {
+    color: var(--color-bg1);
+}
 [data-theme="dark"] .show a {
     background: var(--color-white);
     color: var(--color-bg1);
