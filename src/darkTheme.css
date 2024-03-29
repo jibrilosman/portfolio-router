@@ -187,7 +187,7 @@
 [data-theme="dark"] .portfolio-item  h3 {
     color: var(--color-white);
 }
-[data-theme="light"] small {
+[data-theme="light"] .portfolio-item small {
     color: var(--color-bg1);
 }
 [data-theme="dark"] .show a {
