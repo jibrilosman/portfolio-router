@@ -80,7 +80,7 @@ header {
     color: var(--color-btn);
 }
 .social-icon:hover{
-   color: var(--color-bg1);
+   color: var(--color-btn1);
 }
 .header__socials {
     display: flex;
