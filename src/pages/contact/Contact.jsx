@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.css'
-import { BsFacebook } from 'react-icons/bs'
+import { BsFacebook, BsTwitterX } from 'react-icons/bs'
 import { AiFillInstagram, AiFillTwitterCircle } from 'react-icons/ai'
 import  { useRef } from 'react';
 import emailjs from 'emailjs-com';
@@ -50,7 +50,7 @@ const Contact = () => {
           <div className="contact-socials">
             <a href="https://facebook.com/jibrilo1" target='_blank' rel="noreferrer"><BsFacebook /></a>
             <a href="https://www.instagram.com/jibrilo1/" target='_blank' rel="noreferrer"><AiFillInstagram /></a>
-            <a href="https://twitter.com/jibrilosman10" target='_blank' rel="noreferrer"><AiFillTwitterCircle /></a>
+            <a href="https://x.com/jibrilosman10" target='_blank' rel="noreferrer"><BsTwitterX /></a>
           </div>
 
         </div>
