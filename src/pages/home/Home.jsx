@@ -11,7 +11,7 @@ const Home = () => {
         <div className="hero-info">
             <h3>Hi There, I'm</h3>
             <h1>Jibril Omar</h1>
-            <h2>Full-Stack Developer</h2>
+            <h2>Full-Stack Developer & cybersecurity enthusiastic</h2>
             <p>I am a full-stack developer based in Toronto, Canada.
               I have a passion for web development and love to create for web and mobile devices.</p>
               <CTA />
