@@ -113,7 +113,9 @@ header {
     display: flex;
     justify-content: space-between;
 }
-
+.ce {
+    color: var(--color-btn1)
+}
 /* media query (medium devices)*/
 @media screen and (max-width: 1024px) {
    
@@ -189,4 +191,5 @@ header {
     }
     
 }
+
 
